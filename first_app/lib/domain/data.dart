@@ -1,6 +1,6 @@
 import 'package:first_app/domain/stub_data.dart'
-    if (dart.library.io) 'package:first_app/mobile.dart'
-    if (dart.library.html) 'package:first_app/web.dart';
+    if (dart.library.io) 'package:first_app/domain/mobile.dart'
+    if (dart.library.html) 'package:first_app/domain/web.dart';
 
 class Data {
   final DataImpl _data;

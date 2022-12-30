@@ -3,18 +3,15 @@ import 'package:flutter/material.dart';
 import 'package:first_app/domain/data.dart';
 
 final login = Data();
+String recievedText = 'Enter text and tap on btn pls';
+TextEditingController controller = TextEditingController();
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-  final String title;
+  const MyHomePage({super.key});
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
 }
-
-String recievedText = 'Enter text and tap on btn pls';
-
-TextEditingController controller = TextEditingController();
 
 class _MyHomePageState extends State<MyHomePage> {
   @override
@@ -32,8 +29,9 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               ElevatedButton(
                 onPressed: () {
-                  login.getText();
-                  setState(() {});
+                  setState(() {
+                    login.getText();
+                  });
                 },
                 child: const Text('Click me'),
               ),
