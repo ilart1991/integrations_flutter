@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:first_app/domain/data.dart';
 
-final login = Data();
+final data = Data();
 String recievedText = 'Enter text and tap on btn pls';
 TextEditingController controller = TextEditingController();
 
@@ -30,7 +30,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ElevatedButton(
                 onPressed: () {
                   setState(() {
-                    login.getText();
+                    data.getText();
                   });
                 },
                 child: const Text('Click me'),
