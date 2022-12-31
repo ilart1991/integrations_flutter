@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "/Users/ilart1991/Documents/GitHub/integrations_flutter/first_app/android/app/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/ilart1991/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/Users/ilart1991/Documents/GitHub/integrations_flutter/first_app/android/app/.cxx/Debug/3j275w1h/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/ilart1991/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/Users/ilart1991/Documents/GitHub/integrations_flutter/first_app/android/app/.cxx/Debug/3j275w1h/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "simple::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "simple",
+      "output": "/Users/ilart1991/Documents/GitHub/integrations_flutter/first_app/build/app/intermediates/cxx/Debug/3j275w1h/obj/x86/libsimple.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/ilart1991/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+      "cppCompilerExecutable": "/Users/ilart1991/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

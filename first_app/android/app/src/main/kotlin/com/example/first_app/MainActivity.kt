@@ -23,12 +23,11 @@ class MainActivity: FlutterActivity() {
         super.configureFlutterEngine(flutterEngine)
         MethodChannel(flutterEngine.dartExecutor.binaryMessenger, CHANNEL).setMethodCallHandler {
                 call, result ->
-            val myString = call.arguments as String
-            result.success(myString)
+            result.success(getMyString(call.arguments as String))
         }
         }
-    private fun getMyString(): String {
-        return ""
+    private fun getMyString(text: String): String {
+        return text
     }
 
 }

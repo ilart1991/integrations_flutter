@@ -1,0 +1,3 @@
+/Users/ilart1991/Documents/GitHub/integrations_flutter/first_app/android/app/.cxx/Debug/3j275w1h/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/ilart1991/Documents/GitHub/integrations_flutter/first_app/android/app/.cxx/Debug/3j275w1h/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/ilart1991/Documents/GitHub/integrations_flutter/first_app/android/app/.cxx/Debug/3j275w1h/arm64-v8a/CMakeFiles/simple.dir

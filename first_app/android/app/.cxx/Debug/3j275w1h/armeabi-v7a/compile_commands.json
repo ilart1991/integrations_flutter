@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/ilart1991/Documents/GitHub/integrations_flutter/first_app/android/app/.cxx/Debug/3j275w1h/armeabi-v7a",
+  "command": "/Users/ilart1991/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/ilart1991/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ilart1991/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dsimple_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles/simple.dir/Users/ilart1991/Documents/GitHub/integrations_flutter/first_app/srs/simple.c.o -c /Users/ilart1991/Documents/GitHub/integrations_flutter/first_app/srs/simple.c",
+  "file": "/Users/ilart1991/Documents/GitHub/integrations_flutter/first_app/srs/simple.c"
+}
+]
